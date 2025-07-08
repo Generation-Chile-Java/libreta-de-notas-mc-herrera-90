@@ -11,7 +11,7 @@ Mi solución está estructurada en clases separadas que organizan la __entrada d
 ├── Validador.java # Validaciones reutilizables para entrada de datos.
 ```
 
-> > [!NOTE]
+> [!NOTE]
 > Esta arquitectura modular mejora la legibilidad, reutilización y mantenimiento del código.
 
 ### Screenshots:
