@@ -1,3 +1,33 @@
+## Solución
+
+Mi solución está estructurada en clases separadas que organizan la __entrada de datos__, las __validaciones__, __el menú__ y las __operaciones__ de cálculo como promedios, notas máximas y mínimas, y comparación con el rendimiento del curso. 
+
+### Estructura:
+
+```bash
+├── LibretaDeNotas.java # Clase principal: inicia el flujo del programa.
+├── Menu.java # Contiene el menú de interacción con el usuario.
+├── OperacionesNotas.java # Lógica de evaluación de notas y estadísticas.
+├── Validador.java # Validaciones reutilizables para entrada de datos.
+```
+
+> > [!NOTE]
+> Esta arquitectura modular mejora la legibilidad, reutilización y mantenimiento del código.
+
+### Screenshots:
+
+__Mostrando promedios__:
+
+![Promedios](screenshot/mostrar-promedios.png)
+
+__Mostrar si la Nota es Aprobatoria__
+
+![Nota aprobatoria](screenshot/verificar-nota-aprobatoria.png)
+
+__Mostrar si la Nota está por Sobre o por Debajo del Promedio__
+
+![Comparar Nota con Promedio de Curso](screenshot/verificar-nota-con-promedio-curso.png)
+
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/66iuR6Ti)
 ### **Instrucciones para el Ejercicio "EvaluadorDeClases":**
 
